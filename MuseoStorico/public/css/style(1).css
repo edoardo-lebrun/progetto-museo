@@ -1,0 +1,53 @@
+.topbar {
+  background-color: #e20613 !important; }
+
+.navbar-default .navbar-nav > li.active > a {
+  background-color: #df1813; }
+
+.tp-revslider-slidesli active-revslide {
+  display: none; }
+
+.full-image {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  text-align: center; }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.red_color {
+  color: #a10710; }
+
+.image-effect {
+  background: rgba(0, 0, 0, 0.7); }
+
+.title-font {
+  font-family: 'Raleway', sans-serif !important; }
+
+@media (min-width: 0px) and (max-width: 775px) {
+  .color {
+    font-size: 17px !important; } }
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+.icon:hover {
+  animation: bounce 1s;
+  opacity: 0.3;
+  filter: alpha(opacity=30); }
+
+.booking-tour {
+  background-color: darkgoldenrod !important; }
+
+/*# sourceMappingURL=style.css.map */
